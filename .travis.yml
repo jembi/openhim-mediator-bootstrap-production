@@ -8,4 +8,4 @@ matrix:
     - node_js: 'node'
 script:
   - npm test
-  - npm run lint:check
+  - npm run lint
