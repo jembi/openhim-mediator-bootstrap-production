@@ -1,0 +1,34 @@
+{
+  "urn": "urn:mediator:skeleton-production-mediator",
+  "version": "0.0.1",
+  "name": "Skeleton Production Bootstrap Mediator",
+  "description": "Skeleton Production Bootstrap Mediator",
+  "defaultChannelConfig": [
+    {
+      "name": "Production Bootstrap Test Route",
+      "urlPattern": "^/testEndpoint$",
+      "routes": [
+        {
+          "name": "Test Endpoint",
+          "host": "localhost",
+          "port": "4321",
+          "primary": true,
+          "type": "http"
+        }
+      ],
+      "allow": ["test"],
+      "methods": ["GET"],
+      "type": "http"
+    }
+  ],
+  "endpoints": [
+    {
+      "name": "Production Bootstrap Test Endpoint",
+      "host": "localhost",
+      "path": "/testEndpoint",
+      "port": "4321",
+      "primary": true,
+      "type": "http"
+    }
+  ]
+}
