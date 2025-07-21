@@ -4,7 +4,7 @@
   "description": "Basic OpenHIM skeleton mediator to create a production ready product",
   "dependencies": {
     "express": "^4.17.1",
-    "openhim-mediator-utils": "^0.2.3",
+    "openhim-mediator-utils": "^0.4.0",
     "pino": "^5.13.5",
     "pino-pretty": "^3.2.2"
   },
